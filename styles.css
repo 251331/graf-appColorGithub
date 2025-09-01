@@ -1,0 +1,38 @@
+body {
+  font-family: 'Segoe UI', Roboto, sans-serif;
+}
+
+/* Vista previa */
+.preview {
+  min-height: 220px;
+  width: 100%;
+  border-radius: 1rem;
+  box-shadow: inset 0 0 20px rgba(0,0,0,.15);
+  transition: background 0.3s ease;
+}
+
+/* Inputs */
+#hex {
+  font-family: monospace;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Sliders con colores */
+.slider-red::-webkit-slider-thumb { background: #dc3545; }
+.slider-green::-webkit-slider-thumb { background: #28a745; }
+.slider-blue::-webkit-slider-thumb { background: #0d6efd; }
+
+.slider-red { accent-color: #dc3545; }
+.slider-green { accent-color: #28a745; }
+.slider-blue { accent-color: #0d6efd; }
+
+/* Gradiente en el título */
+.text-gradient {
+  background: linear-gradient(45deg, #ff4d6d, #4dabf7, #63e6be);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
